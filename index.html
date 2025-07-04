@@ -9,7 +9,7 @@
 <header class="page-header">
   <nav class="navigation" aria-label="Основная навигация по сайту">
     <a class="navigation-logo" href="index.html">
-      <img src="#" alt="Логотип города Седона">
+      <img src="images/logo.svg" width="140" height="70" alt="Логотип города Седона">
     </a>
     <ul class="navigation-list">
       <li class="navigation-item">
@@ -23,19 +23,17 @@
       </li>
     </ul>
     <ul class="navigation-list navigation-user">
-      <li>
+      <li class="navigation-item">
         <a class="navigation-link" href="#" aria-label="Поиск">
-          <span class="visually-hidden" >Поиск</span></a>
+          <span class="visually-hidden">Поиск</span></a>
       </li>
-      <li>
+      <li class="navigation-item">
         <a class="navigation-link" href="#" aria-label="Избранное">
           <span class="visually-hidden">Избранное</span>
         </a>
       </li>
-      <li>
-        <a class="navigation-link" href="#">Хочу сюда!</a>
-      </li>
     </ul>
+    <button class="button-cta" type="button">Хочу сюда!</button>
   </nav>
 </header>
 
@@ -43,29 +41,39 @@
   <h1 class="visually-hidden" id="main-title">Добро пожаловать в Седону — сердце Аризоны</h1>
   <section class="hero">
     <h2 class="visually-hidden">Заставка</h2>
-    <img src="#" alt="Welcome to the gorgeous Sedona Because the Grand Canyon sucks!" role="presentation">
+    <img src="images/welcome.svg" width="458" height="352"
+         alt="Welcome to the gorgeous Sedona Because the Grand Canyon sucks!">
   </section>
 
   <section class="reasons">
-    <h2 class="visually-hidden">Причины посетить Седону</h2>
+    <h2 class="reasons-title">Седона — небольшой городок в Аризоне,
+      заслуживающий большего!</h2>
+    <p class="reasons-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
     <ul class="reasons-list">
       <li class="reasons-item">
-        <h3 class="reasons-title">Настоящий городок</h3>
-        <p class="reasons-description">Седона — не аттракцион для туристов, там течет своя жизнь</p></li>
-      <li class="reasons-item">
-        <h3 class="reasons-title">Небольшая площадь</h3>
-        <p class="reasons-description">Все достопримечательности находятся очень близко</p>
+        <h3 class="reasons-item-title">Настоящий городок</h3>
+        <p class="reasons-item-description">Седона — не аттракцион для туристов, там течет своя жизнь</p>
+        <img class="reasons-item-image" src="images/reasons-1.jpg" width="800" height="385"
+             alt="Улица Седоны в стиле вестернов">
       </li>
       <li class="reasons-item">
-        <h3 class="reasons-title">Красивая дорога</h3>
-        <p class="reasons-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+        <h3 class="reasons-item-title">Небольшая площадь</h3>
+        <p class="reasons-item-description">Все достопримечательности находятся очень близко</p>
       </li>
       <li class="reasons-item">
-        <h3 class="reasons-title">Мало туристов</h3>
-        <p class="reasons-description">Большинство едет в Гранд Каньон и толпится там</p></li>
+        <h3 class="reasons-item-title">Красивая дорога</h3>
+        <p class="reasons-item-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+      </li>
       <li class="reasons-item">
-        <h3 class="reasons-title">Там есть мост дьявола</h3>
-        <p class="reasons-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p></li>
+        <h3 class="reasons-item-title">Мало туристов</h3>
+        <p class="reasons-item-description">Большинство едет в Гранд Каньон и толпится там</p>
+      </li>
+      <li class="reasons-item">
+        <h3 class="reasons-item-title">Там есть мост дьявола</h3>
+        <p class="reasons-item-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+        <img class="reasons-item-image" src="images/reasons-2.jpg" width="800" height="385"
+             alt="Панорамный вид на мост дьявола">
+      </li>
     </ul>
   </section>
 
@@ -126,7 +134,7 @@
   <address class="footer-contacts">
     <a class="footer-phone-link" href="tel:+78128121212">+7 (812) 812-12-12</a>
   </address>
-  <a class="copyright" href="#">
+  <a class="copyright" href="#" target="_blank" rel="noopener">
     <span class="visually-hidden">html academy</span>
   </a>
 </footer>
