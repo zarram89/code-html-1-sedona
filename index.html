@@ -4,12 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Седона — туризм, отели и отдых в Аризоне</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 <header class="page-header">
   <nav class="navigation" aria-label="Основная навигация по сайту">
     <a class="navigation-logo" href="index.html">
-      <img src="images/logo.svg" width="140" height="70" alt="Логотип города Седона">
+      <img class="hero-img" src="images/logo.svg" width="140" height="70" alt="Логотип города Седона">
     </a>
     <ul class="navigation-list">
       <li class="navigation-item">
@@ -29,11 +30,12 @@
       </li>
       <li class="navigation-item">
         <a class="navigation-link" href="#" aria-label="Избранное">
-          <span class="visually-hidden">Избранное</span>
+          <span class="visually-hidden">Добавить в избранное</span>
+          <span class="fav-count">12</span>
         </a>
       </li>
     </ul>
-    <button class="button-cta" type="button">Хочу сюда!</button>
+    <button class="button button-cta" type="button">Хочу сюда!</button>
   </nav>
 </header>
 
@@ -50,7 +52,7 @@
       заслуживающий большего!</h2>
     <p class="reasons-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
     <ul class="reasons-list">
-      <li class="reasons-item">
+      <li class="reasons-item reasons-item-wide">
         <h3 class="reasons-item-title">Настоящий городок</h3>
         <p class="reasons-item-description">Седона — не аттракцион для туристов, там течет своя жизнь</p>
         <img class="reasons-item-image" src="images/reasons-1.jpg" width="800" height="385"
@@ -68,7 +70,7 @@
         <h3 class="reasons-item-title">Мало туристов</h3>
         <p class="reasons-item-description">Большинство едет в Гранд Каньон и толпится там</p>
       </li>
-      <li class="reasons-item">
+      <li class="reasons-item reasons-item-wide">
         <h3 class="reasons-item-title">Там есть мост дьявола</h3>
         <p class="reasons-item-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
         <img class="reasons-item-image" src="images/reasons-2.jpg" width="800" height="385"
@@ -108,7 +110,7 @@
     <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
       <label for="newsletter-email" class="visually-hidden">Ваш email</label>
       <input type="email" id="newsletter-email" name="email" placeholder="Ваш e-mail" required>
-      <button type="submit">Подписаться</button>
+      <button class="button" type="submit">Подписаться</button>
     </form>
   </section>
 </main>
