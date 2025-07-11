@@ -108,42 +108,47 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="catalog-filter-group">
+          <fieldset class="catalog-filter-group catalog-filter-price">
             <legend class="catalog-filter-title">Стоимость, ₽</legend>
             <input type="number" name="price-min" value="0" aria-label="Минимальная цена">
             <input type="number" name="price-max" value="9000" aria-label="Максимальная цена">
+          </fieldset>
+          <div class="catalog-filter-buttons">
             <button class="button" type="submit">Применить</button>
             <button class="button" type="reset">Сбросить</button>
-          </fieldset>
+          </div>
         </form>
       </section>
     </div>
 
     <section class="catalog-results" aria-labelledby="results-title">
-      <h2 class="results-title">Найдено гостиниц: 38</h2>
-      <div class="sort-view-controls" role="group" aria-label="Сортировка и отображение">
-        <label for="sort-select" class="visually-hidden">Сортировка</label>
-        <select id="sort-select">
-          <option value="cheap">Сначала дешёвые</option>
-          <option value="expensive">Сначала дорогие</option>
-          <option value="rating">По рейтингу</option>
-        </select>
-        <a class="button button-active" href="#">
-          <span class="visually-hidden">Показать плитку</span>
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden">Показать список</span>
-        </a>
-        <a class="button" href="#">
-          <span class="visually-hidden">Показать карточки</span>
-        </a>
+      <div class="catalog-results-wrapper">
+        <h2 class="results-title">Найдено гостиниц: 38</h2>
+        <div class="sort-view-controls" role="group" aria-label="Сортировка и отображение">
+          <label for="sort-select" class="visually-hidden">Сортировка</label>
+          <select id="sort-select">
+            <option value="cheap">Сначала дешёвые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="rating">По рейтингу</option>
+          </select>
+          <a class="button button-active" href="#">
+            <span class="visually-hidden">Показать плитку</span>
+          </a>
+          <a class="button" href="#">
+            <span class="visually-hidden">Показать список</span>
+          </a>
+          <a class="button" href="#">
+            <span class="visually-hidden">Показать карточки</span>
+          </a>
+        </div>
       </div>
 
       <ul class="hotel-list">
         <li class="hotel-card">
-          <article>
+          <article class="hotel-card-article">
             <a class="hotel-card-link" href="hotel.html">
-              <img class="hotel-image" src="images/catalog-1.jpg" width="300" height="212" alt="Amara Resort & Spa">
+              <img class="hotel-image" src="images/catalog-1.jpg" width="300" height="212"
+                   alt="Amara Resort & Spa">
               <h3 class="hotel-title">Amara Resort & Spa</h3>
             </a>
             <p>Гостиница</p>
@@ -157,9 +162,10 @@
           </article>
         </li>
         <li class="hotel-card">
-          <article>
+          <article class="hotel-card-article">
             <a class="hotel-card-link" href="hotel.html">
-              <img class="hotel-image" src="images/catalog-2.jpg" width="300" height="212" alt="Villas at Poco Diablo">
+              <img class="hotel-image" src="images/catalog-2.jpg" width="300" height="212"
+                   alt="Villas at Poco Diablo">
               <h3 class="hotel-title">Villas at Poco Diablo</h3>
             </a>
             <p>Гостиница</p>
@@ -173,9 +179,10 @@
           </article>
         </li>
         <li class="hotel-card">
-          <article>
+          <article class="hotel-card-article">
             <a class="hotel-card-link" href="hotel.html">
-              <img class="hotel-image" src="images/catalog-3.jpg" width="300" height="212" alt="Desert Quail Inn">
+              <img class="hotel-image" src="images/catalog-3.jpg" width="300" height="212"
+                   alt="Desert Quail Inn">
               <h3 class="hotel-title">Desert Quail Inn</h3>
             </a>
             <p>Гостиница</p>
@@ -189,9 +196,10 @@
           </article>
         </li>
         <li class="hotel-card">
-          <article>
+          <article class="hotel-card-article">
             <a class="hotel-card-link" href="hotel.html">
-              <img class="hotel-image" src="images/catalog-4.jpg" width="300" height="212" alt="GreenTree Inn">
+              <img class="hotel-image" src="images/catalog-4.jpg" width="300" height="212"
+                   alt="GreenTree Inn">
               <h3 class="hotel-title">GreenTree Inn</h3>
             </a>
             <p>Гостиница</p>
